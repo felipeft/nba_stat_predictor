@@ -1,0 +1,29 @@
+# Ignora o ambiente virtual (Python)
+venv/
+nba_stat_predictor/
+.env
+
+# Ignora pastas de dados e modelos (gerados pelo Makefile)
+data/
+models/
+
+# Ignora relatórios e documentos gerados
+reports/
+docs/
+
+# Ignora cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora arquivos de cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignora arquivos de build do Python
+build/
+dist/
+*.egg-info/
+
+# Ignora arquivos específicos do OS
+.DS_Store

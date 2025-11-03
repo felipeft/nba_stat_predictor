@@ -1,0 +1,23 @@
+# Core de Análise e ML
+pandas
+numpy
+scikit-learn
+joblib
+nba-api
+
+# Visualização e Dashboard
+streamlit
+matplotlib
+seaborn
+
+# Ferramentas de Desenvolvimento e Utilitários
+loguru
+pip
+pytest
+python-dotenv
+ruff
+tqdm
+typer
+
+# Instala o projeto atual (nba_stat_predictor)
+-e .
