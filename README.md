@@ -1,4 +1,3 @@
-
 # NBA Stat Predictor
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
@@ -6,6 +5,12 @@
 </a>
 
 Um pipeline de MLOps de ponta a ponta para prever estatísticas de jogadores da NBA (PTS, AST, REB, FG3M) e a probabilidade de um Double-Double. O projeto segue a metodologia CRISP-DM, é orquestrado via `Makefile` e culmina em um dashboard interativo em Streamlit.
+
+## Dashboard Interativo (Streamlit)
+
+O resultado final do pipeline é um aplicativo web onde o usuário pode selecionar um jogador, um oponente e o local da partida para receber as previsões estatísticas em tempo real.
+
+![Screenshot do Dashboard Streamlit](screenshot.jpg)
 
 ## Pipeline de Execução (CRISP-DM)
 
@@ -101,6 +106,7 @@ Após a fase de avaliação (ver `notebooks/03-modelagem-e-avaliacao.ipynb`), os
 ├── pyproject.toml
 ├── README.md
 ├── requirements.txt      <- Lista de dependências Python (pandas, sklearn, streamlit, etc.)
+├── screenshot.jpg        <- Screenshot do app Streamlit
 ├── setup.cfg
 └── src                   <- Código-fonte do projeto
     ├── __init__.py
