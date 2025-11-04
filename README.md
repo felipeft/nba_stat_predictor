@@ -122,5 +122,3 @@ Após a fase de avaliação (ver `notebooks/03-modelagem-e-avaliacao.ipynb`), os
         └── train_model.py
 ```
 
-```
-```
